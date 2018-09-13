@@ -1,0 +1,23 @@
+﻿<Window x:Class="PracticaStackPanel.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PracticaStackPanel"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <StackPanel Orientation="Vertical">
+        <Button VerticalAlignment="Stretch">Boton Uno</Button>
+        <Button VerticalAlignment="Top">Boton Dos</Button>
+        <Button VerticalAlignment="Center">Boton Tres</Button>
+        <Button VerticalAlignment="Bottom">Boton Cuatro</Button>
+        <Button HorizontalAlignment="Stretch">Boton Cinco</Button>
+        <Button HorizontalAlignment="Left">Boton Seis</Button>
+        <Button HorizontalAlignment="Center">Boton Siete</Button>
+        <Button HorizontalAlignment="Right" Width="250">Boton Ocho</Button>
+        <Button Width="250">Boton Nueve</Button>
+        <Button>Boton Diez</Button>
+        <Button>Boton Once</Button>
+        <Button>Boton Doce</Button>
+    </StackPanel>
+</Window>
